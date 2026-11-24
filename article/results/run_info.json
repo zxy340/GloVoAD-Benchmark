@@ -1,0 +1,20 @@
+{
+ "files_found": 2066,
+ "usable_after_audio_checks": 2064,
+ "analysed": 2064,
+ "participants": 1806,
+ "class_recordings": {
+  "Control": 1146,
+  "MCI": 268,
+  "AD": 171,
+  "ProbableAD": 441,
+  "PPA": 38
+ },
+ "class_participants": {
+  "Control": 1002,
+  "MCI": 245,
+  "AD": 169,
+  "ProbableAD": 354,
+  "PPA": 38
+ }
+}

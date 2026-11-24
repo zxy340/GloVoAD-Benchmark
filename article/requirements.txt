@@ -1,0 +1,12 @@
+torch==2.5.1
+torchaudio==2.5.1
+transformers==4.46.3
+librosa==0.10.2.post1
+soundfile==0.12.1
+scikit-learn==1.5.2
+pandas==2.2.3
+silero-vad==5.1.2
+numpy<2.1
+joblib
+matplotlib>=3.8   # only for make_tables_figures.py
+scipy             # only for make_tables_figures.py

@@ -1,0 +1,9 @@
+model,corpus_macro_f1,corpus_acc
+wav2vec2_ssl,0.903,0.9693
+wav2vec2,0.7709,0.9073
+hubert,0.9399,0.9793
+wavlm,0.9614,0.9866
+whisper_base,0.9557,0.9869
+xlsr,0.9201,0.9779
+whisper_medium,0.9742,0.9934
+unispeech_sat,0.9508,0.9819

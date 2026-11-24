@@ -1,0 +1,90 @@
+{
+ "analysed": 2064,
+ "models": [
+  "wav2vec2_ssl",
+  "wav2vec2",
+  "hubert",
+  "wavlm",
+  "whisper_base",
+  "xlsr",
+  "whisper_medium",
+  "unispeech_sat"
+ ],
+ "phases": [
+  "main",
+  "shift"
+ ],
+ "boot": 2000,
+ "within": {
+  "Delaware": {
+   "corpus": "Delaware",
+   "classes": "Control/MCI",
+   "n": 82,
+   "participants": 82,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 31,
+    "MCI": 51
+   }
+  },
+  "Ivanova": {
+   "corpus": "Ivanova",
+   "classes": "Control/MCI/AD",
+   "n": 361,
+   "participants": 361,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 197,
+    "MCI": 90,
+    "AD": 74
+   }
+  },
+  "Lu": {
+   "corpus": "Lu",
+   "classes": "Control/AD",
+   "n": 51,
+   "participants": 51,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 24,
+    "AD": 27
+   }
+  },
+  "Pitt": {
+   "corpus": "Pitt",
+   "classes": "Control/MCI/ProbableAD",
+   "n": 540,
+   "participants": 284,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 243,
+    "MCI": 42,
+    "ProbableAD": 255
+   }
+  },
+  "VAS": {
+   "corpus": "VAS",
+   "classes": "Control/MCI/AD",
+   "n": 100,
+   "participants": 100,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 36,
+    "MCI": 35,
+    "AD": 29
+   }
+  },
+  "WLS": {
+   "corpus": "WLS",
+   "classes": "Control/AD/ProbableAD",
+   "n": 830,
+   "participants": 830,
+   "k_splits": 5,
+   "class_recordings": {
+    "Control": 615,
+    "AD": 29,
+    "ProbableAD": 186
+   }
+  }
+ }
+}
